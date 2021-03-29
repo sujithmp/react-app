@@ -1,1 +1,2 @@
 https://medium.com/prolanceer/how-to-architect-complex-ui-components-in-react-27042ff3689f        
+https://dev.to/jamrod/handling-client-side-routing-when-hosting-a-react-app-on-aws-s3-25po
