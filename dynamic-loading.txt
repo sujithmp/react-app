@@ -1,0 +1,19 @@
+import { asyncComponent } from 'react-async-component'
+const loadAvatar = () => {
+
+
+  return React.createElement(asyncComponent({
+              resolve: () => import(
+              /* webpackMode: "eager" */
+              `@material-ui/core/Avatar`)
+              }));
+}
+const loadLockOutlinedIcon  = () => {
+
+
+  return React.createElement(asyncComponent({
+              resolve: () => import(
+              /* webpackMode: "eager" */
+              `@material-ui/icons/LockOutlined`)
+              }));
+}
